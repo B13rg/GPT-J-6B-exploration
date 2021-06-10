@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "~=2.25.1"
+numpy = "~=1.19.5"
+transformers = "~=4.4.2"
+tqdm = "~=4.45.0"
+wandb = "~=0.10.22"
+einops = "~=0.3.0"
+fabric = "~=2.6.0"
+optax = "~=0.0.2"
+dm-haiku = {git = "https://github.com/deepmind/dm-haiku"}
+lm-eval-harness = {git = "https://github.com/EleutherAI/lm-evaluation-harness"}
+ray = "~=1.2.0"
+jax = "~=0.2.12"
+cloudpickle = "~=1.3.0"
+tensorflow-cpu = "~=2.4.1"
+google-cloud-storage = "~=1.36.2"
+smart-open = {extras = ["gcs"], version = "*"}
+func-timeout = "*"
+ftfy = "*"
+Flask = "~=1.1.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
